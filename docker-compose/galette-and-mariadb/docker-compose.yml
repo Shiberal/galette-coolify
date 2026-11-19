@@ -23,7 +23,7 @@ services:
       - TZ=Europe/Paris # Define Timezone. Europe/Paris by default.
       - RM_INSTALL_FOLDER=0 # 0 by default. Turn to "1" to remove "install" folder (for security purpose), after installation/update.    
     ports:
-      - 8080:80
+      - 8081:80
     volumes:
       - ${GALETTE_DATA_DIR}/data/attachments:/var/www/galette/data/attachments
       - ${GALETTE_DATA_DIR}/data/cache:/var/www/galette/data/cache
