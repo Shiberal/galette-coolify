@@ -1,4 +1,7 @@
 > [!NOTE]
+> This repository is a fork of [galette/docker](https://github.com/galette/docker), adapted for deployment with Coolify. Its Galette and MariaDB Compose example uses host port 8081.
+
+> [!NOTE]
 > This repository is community-maintained, and not part of Galette project.
 
 ![Docker Stars](https://img.shields.io/docker/stars/galette/galette.svg) ![Docker Pulls](https://img.shields.io/docker/pulls/galette/galette.svg) ![Docker Automated](https://img.shields.io/docker/automated/galette/galette.svg)
